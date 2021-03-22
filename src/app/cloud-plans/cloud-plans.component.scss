@@ -1,0 +1,152 @@
+.cloud-plans {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200vh;
+    // border: 2px solid green;
+    background-image: url(./../../assets/cloud-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 455px;
+}
+
+.hosting {
+    width: 57%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    height: 230px;
+    // border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .hosting-heading {
+        margin: 0;
+    }
+    .hosting-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+.plans {
+    width: 85%;
+    margin: 0 auto;
+    // border: 2px solid yellowgreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    .monthly {
+        width: 355px;
+        height: 800px;
+        // border: 2px solid gray;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+        position: relative;
+        .plans-name {
+            margin: 40px 0;
+        }
+        .value {
+            border: 1px solid #00bcd4;
+            background-color: #00bcd4;
+            color: white;
+            width: 250px;
+            height: 120px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .time {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .cost {
+                margin: 5px;
+            }
+        }
+        .blue-value {
+            background: linear-gradient( 145deg, rgba(50, 100, 245, 1) 0%, rgba(114, 2, 187, 1) 100%);
+            color: white;
+            width: 250px;
+            height: 120px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .blue-cost {
+                margin: 5px;
+            }
+            .blue-time {
+                margin: 0;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+        .about-plans {
+            width: 70%;
+            height: 140px;
+            margin: 0 auto;
+            font-size: 14px;
+            color: #6a6a6a;
+            line-height: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .cloud-hr {
+            width: 75%;
+            margin: o auto;
+            border: 1px solid gainsboro;
+        }
+        .benifit {
+            width: 75%;
+            height: 40px;
+            margin: 0 auto;
+            // border: 2px solid red;
+            display: flex;
+            align-items: center;
+            padding: 5px 0;
+            // position: relative;
+            .memory {
+                font-size: 16px;
+                color: #6a6a6a;
+            }
+            i {
+                font-size: 14px;
+                margin-right: 8px;
+                color: #491bb1;
+            }
+        }
+        .cloud-btn {
+            width: 150px;
+            height: 45px;
+            background-color: #00bcd4;
+            border: 1px solid #00bcd4;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.5s;
+            position: absolute;
+            bottom: -3%;
+            left: 30%;
+        }
+        .blue-btn {
+            width: 150px;
+            height: 45px;
+            background: linear-gradient( 145deg, rgba(50, 100, 245, 1) 0%, rgba(114, 2, 187, 1) 100%);
+            border: 1px solid blue;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            transition: all 0.5s;
+            position: absolute;
+            bottom: -3%;
+            left: 30%;
+        }
+    }
+}

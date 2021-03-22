@@ -1,0 +1,20 @@
+.trusted {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.trusted-text {
+    font-weight: 600;
+}
+
+.trusted-img {
+    margin: 40px 60px;
+}
